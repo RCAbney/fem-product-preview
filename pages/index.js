@@ -25,7 +25,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <section>
+        <article>
           <div className={styles.productCardWrap}>
             <div className={styles.productCardImage}>
               {width < breakpoint ? (
@@ -56,8 +56,9 @@ export default function Home() {
                 Olivier Polge, Perfumer-Creator for the House of CHANEL.
               </p>
               <div className={styles.prices}>
-                <h2 className={styles.productSalePrice}>$149.99</h2>
-                <p className={styles.regularPrice}>$169.99</p>
+                <p className={styles.productSalePrice}>$149.99</p>
+                <p className="sr-only">Regular price - $169.99</p>
+                <del className={styles.regularPrice}>$169.99</del>
               </div>
 
               <button className={styles.addToCartBtn}>
@@ -65,7 +66,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-        </section>
+        </article>
       </main>
     </div>
   );

@@ -20,6 +20,11 @@ a {
   box-sizing: border-box;
 }
 
-/* font-family: 'Fraunces', serif; */
-
-/* font-family: 'Montserrat', sans-serif; */
+.sr-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
