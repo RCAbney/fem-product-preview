@@ -45,7 +45,7 @@ export default function Home() {
               )}
             </div>
             <div className={styles.productCardText}>
-              <p className={styles.productPreview}>Preview</p>
+              <p className={styles.productPreview}>Perfume</p>
 
               <h1 className={styles.productTitle}>
                 Gabrielle Essence Eau De Parfum
